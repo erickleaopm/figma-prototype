@@ -15,7 +15,7 @@ const Navbar = () => {
       <AniLink fade to="/search">
         <img src={search} alt="Search" />
       </AniLink>
-      <AniLink fade to="/add">
+      <AniLink fade to="/">
         <img src={plus} alt="Add" />
       </AniLink>
       <AniLink fade to="/chat">
