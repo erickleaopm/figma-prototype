@@ -221,6 +221,13 @@ Login
   flex-direction: column;
   margin: 2rem 0;
 }
+.form span {
+  color: #8c001a;
+  font-family: var(--ff-secondary);
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
 input {
   border: 0.2rem solid var(--clr-black);
   font-size: 1.8rem;
