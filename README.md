@@ -22,3 +22,18 @@
 <p align="center">
   The images used on the site are part of the Unsplash API.
 </p>
+<br />
+<br />
+<br />
+<h3>
+  // TODO:
+</h3>
+<ul>
+  <li>Add a profile page</li>
+  <li>Add a chat page</li>
+  <li>Create chat component with a modal with a conversation.</li>
+  <li>Create modal component for images on grid, to see on full screen</li>
+</ul>
+<p>
+  <b>As my recommendation, I suggest that you view the site through a mobile to have a better experience.</b>
+</p>
