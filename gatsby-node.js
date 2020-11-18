@@ -1,13 +1,15 @@
 const axios = require("axios")
 const crypto = require("crypto")
 
+const clientId = process.env.UNSPLASH_CLIENT_ID
+
 exports.sourceNodes = async ({ actions }) => {
   const { createNode } = actions
 
   // Fetch raw data from Unplash API
   const fetchLatestPhotos = () =>
     axios.get(
-      `https://api.unsplash.com/photos?per_page=30&client_id=OSZ3P7AtSJ6mP682onEuGc7FOt1G8VbNYAY8HDMWBvI`
+      `https://api.unsplash.com/photos?per_page=30&client_id=${clientId}`
     )
   // Await for the results
   const res = await fetchLatestPhotos()
