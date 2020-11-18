@@ -27,7 +27,7 @@ const Login = () => {
     setShow(true)
     setTimeout(() => {
       navigate("/dashboard")
-    }, 1500)
+    }, 2500)
   }
   return (
     <Layout>
