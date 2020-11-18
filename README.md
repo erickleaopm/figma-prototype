@@ -11,6 +11,11 @@
     <img alt="Photo - Figma Prototype" src="https://d33wubrfki0l68.cloudfront.net/5fb4a653a2bbb600079373ed/screenshot.png" />
   </a>
 </p>
+<p align="center">
+  <a href="https://figma-prototype.erickperez.me/">
+    https://figma-prototype.erickperez.me/
+  </a>
+</p>
 <h2 align="center">
   This site was created using Gatsby, React, GraphQL, HTML and CSS.
 </h2>
